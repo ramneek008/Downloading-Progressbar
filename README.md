@@ -1,2 +1,2 @@
 # Downloading-Progressbar
-Progress bar progressing according to the downloading speed.
+This progress bar progresses according to the downloading speed available at the run time for a particular data to be downloaded.
