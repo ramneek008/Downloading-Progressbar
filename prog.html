@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Progress-bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+ 
+<script src="progress.js"></script>
+<div class="container">
+  <h2>Progress Bar</h2>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped active" id="s" role="progressbar" style="width:0%"  >
+      
+    </div>
+  </div>
+  <p>Downloading Time(in s): <span id="p1">0</span> s</p><br>
+  
+ Downloading Size(in mb) :  <input type="number" id="m"><br><br>
+ Downloading Speed(in kbps) :  <input type="number" id="n"><br><br>
+ <button class="btn btn-success" onclick="myfunction(0)">Download</button>
+
+</div>
+
+</body>
+</html>
